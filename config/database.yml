@@ -1,0 +1,28 @@
+
+development:
+  host: localhost
+  adapter: postgresql
+  encoding: unicode
+  database: cv_development
+  pool: 5
+  username: cponcax
+  password: bat86
+
+test:
+  host: localhost
+  adapter: postgresql
+  encoding: unicode
+  database: cv_test
+  pool: 5
+  username: cponcax
+  password: bat86
+
+production:
+  host: localhost
+  adapter: postgresql
+  encoding: unicode
+  database: cv_production
+  pool: 5
+  username: cponcax
+  password: bat86
+
