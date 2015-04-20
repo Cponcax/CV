@@ -1,1 +1,30 @@
-%h1 This is welocme
+#banner
+  .banner_content
+    %h1 NoteNote
+    %p Your online notebook. Never forget an idea again.
+    %button= link_to "Sign Up", new_user_registration_path
+
+#testimonial
+  .wrapper
+    %p.quote "The greatest notebook app"
+    %p.name - Alexandro Ponce
+
+#callouts
+  .callout_inner
+    .wrapper
+      .callout
+        %h2 Notes
+        %p blablbalba
+      .callout
+        %h2 Notes
+        %p blablbalba
+      .callout
+        %h2 Notes
+        %p blablbalba
+#bottom_cta
+  .wrapper
+    %h2 For Realz!
+    %p I want you to sing up... If you don't, i will find you!
+    %bottom= link_to "Click Mee!!", new_user_registration_path
+%footer
+  %p &copy: Alexandro Ponce
