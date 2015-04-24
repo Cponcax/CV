@@ -1,30 +1,34 @@
 #banner
   .banner_content
-    %h1 NoteNote
-    %p Your online notebook. Never forget an idea again.
-    %button= link_to "Sign Up", new_user_registration_path
+    %h1 Welcome
+    %p It is paradoxical, yet true, to say, that the more we know, the more ignorant we become in the absolute sense, for it is only through enlightenment that we become conscious of our limitations. Precisely one of the most gratifying results of intellectual evolution is the continuous opening up of new and greater prospects.
+    %p Nikola Tesla
+
+    %button= link_to "Log in", user_session_path
 
 #testimonial
   .wrapper
-    %p.quote "The greatest notebook app"
+    %p.quote "Thanks for visiting"
     %p.name - Alexandro Ponce
 
-#callouts
-  .callout_inner
-    .wrapper
-      .callout
-        %h2 Notes
-        %p blablbalba
-      .callout
-        %h2 Notes
-        %p blablbalba
-      .callout
-        %h2 Notes
-        %p blablbalba
+/ #callouts
+/   .callout_inner
+/     .wrapper
+/       .callout
+/         %h2 Notes
+/         %p blablbalba
+/       .callout
+/         %h2 Notes
+/         %p blablbalba
+/       .callout
+/         %h2 Notes
+/         %p blablbalba
+%hr/
 #bottom_cta
   .wrapper
     %h2 For Realz!
-    %p I want you to sing up... If you don't, i will find you!
-    %bottom= link_to "Click Mee!!", new_user_registration_path
+    %p you want to know more about me :).
+    %bottom
+      %a{:href => "https://github.com/Cponcax"} Click Mee!!
 %footer
   %p &copy Alexandro Ponce
