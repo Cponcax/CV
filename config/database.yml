@@ -5,8 +5,8 @@ development:
   encoding: unicode
   database: cv_development
   pool: 5
-  username: cponcax
-  password: bat86
+  username: developer
+  password: med.developer01
 
 test:
   host: localhost
@@ -14,8 +14,8 @@ test:
   encoding: unicode
   database: cv_test
   pool: 5
-  username: cponcax
-  password: bat86
+  username: developer
+  password: med.developer01
 
 production:
   host: localhost
@@ -23,6 +23,6 @@ production:
   encoding: unicode
   database: cv_production
   pool: 5
-  username: cponcax
-  password: bat86
+  username: developer
+  password: med.developer
 
